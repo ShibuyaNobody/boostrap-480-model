@@ -31,6 +31,7 @@ body {
 .navText {
     background-color: #fdab9f;
     text-align: center;
+    padding: 3px 0px;
 }
 .center {
     margin: 0px auto;
@@ -46,6 +47,10 @@ footer {
 }
 .footer {
     margin: 5px 0px;
+}
+a, a:hover {
+    text-decoration: none;
+    color: #000000;
 }
 
 /* Login Box */
@@ -171,4 +176,20 @@ footer {
 }
 .opening {
     text-align: center;
+}
+
+/* PROFILE PAGE */
+/* .profileImg {
+    float: right;
+    outline: solid 3px #000000;
+} */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
 }
