@@ -3,6 +3,13 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+.container {
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 1366px;
+    margin: 0px auto;
+    /* border-radius: 15px; */
+    box-shadow: 0px 0px 3px #333333;
+}
 .rowBanner {
     background-image: url('../_images/logobanner.jpeg');
     background-repeat: no-repeat;
